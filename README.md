@@ -1,3 +1,14 @@
+---
+title: Roman Urdu Sentiment Classifier
+emoji: 🇵🇰
+colorFrom: blue
+colorTo: green
+sdk: gradio
+sdk_version: "4.26.0"
+python_version: "3.10"
+app_file: app.py
+pinned: false
+---
 # Roman Urdu Sentiment Classifier API
 
 A FastAPI-based REST API for sentiment classification in Roman Urdu (Urdu written in Latin characters, mixed with English). Uses a pretrained transformer model (`cardiffnlp/twitter-roberta-base-sentiment`) fine-tuned on multilingual social media text.
