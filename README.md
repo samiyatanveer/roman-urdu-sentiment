@@ -67,3 +67,13 @@ Runs 3 example predictions locally.
 - Confidence scores are softmax probabilities (0-1)
 - No fine-tuning was performed; this is inference-only using a pretrained model
 
+## Run Locally
+
+```bash
+git clone https://github.com/samiyatanveer/roman-urdu-sentiment
+cd roman-urdu-sentiment
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+Open: http://localhost:8501
